@@ -1,0 +1,329 @@
+/*
+  ========================================
+  LAYOUT
+
+  includes:
+  - padding
+  - flex
+  - gap
+  ========================================
+*/
+/* TEXT ALIGN */
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-none {
+  flex: none;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-end {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  min-height: 90vh;
+  width: 100%;
+}
+
+.flex-start-items {
+  align-items: flex-start;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.flex-grow-3 {
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+/* GAP */
+.gap-0 {
+  gap: 0px;
+}
+
+.gap-4 {
+  gap: 4px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap-60 {
+  gap: 60px;
+}
+
+.gap-80 {
+  gap: 80px;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+
+.gap-120 {
+  gap: 120px;
+}
+
+/* PADDING HORIZONTAL */
+.pad-x-2 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.pad-x-4 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.pad-x-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.pad-x-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.pad-x-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.pad-x-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pad-x-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.pad-x-48 {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.pad-x-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.pad-x-80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* PADDING VERTICAL */
+.pad-y-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.pad-y-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.pad-y-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.pad-y-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.pad-y-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.pad-y-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pad-y-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pad-y-48 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.pad-y-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.pad-y-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* RADIUS */
+.radius-4 {
+  border-radius: 4px;
+}
+
+.radius-8 {
+  border-radius: 8px;
+}
+
+.radius-top-right-8 {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* WIDTH */
+.width-100vw {
+  width: 100vw;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-80px {
+  width: 80px;
+}
+
+.width-100px {
+  width: 100px;
+}
+
+.width-200px {
+  width: 200px;
+}
+
+.width-360px {
+  width: 360px;
+}
+
+.min-width-150px {
+  min-width: 150px;
+}
+
+.min-width-300px,
+.min-width-300px * {
+  min-width: 300px;
+}
+
+.min-width-360px {
+  min-width: 360px;
+}
+
+.width-600px {
+  width: 600px;
+}
+.width-700px {
+  width: 700px;
+}
+
+.max-width-1200px {
+  max-width: 1200px;
+}
+
+/* HEIGHT */
+.height-100 {
+  height: 100%;
+}
+.height-160px {
+  height: 160px;
+}
+.height-280px {
+  height: 280px;
+}
+.height-360px {
+  height: 360px;
+}
+.height-400px {
+  height: 400px;
+}
+.max-height-204px {
+  height: 204px;
+}
+.max-height-400px {
+  height: 400px;
+}
+
+.height-min-100vh {
+  min-height: 100vh;
+}

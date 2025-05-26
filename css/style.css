@@ -740,17 +740,23 @@ footer {
   z-index: -1;
 }
 
-.cloud-footer {
+/* .cloud-footer {
   position: absolute;
   width: 110vw;
   bottom: -80%;
   left: -30%;
   z-index: -1; /* Sends it behind the footer content */
+/* } */
+
+.cloud-footer {
+  position: absolute;
+  width: 110vw;
+  height: auto;
+  left: -20vw;
+  bottom: -5vh;
+  z-index: -1; /* Sends it behind the footer content */
 }
 
-.cloud-footer img {
-  width: 100%;
-}
 footer {
   z-index: 2;
 }

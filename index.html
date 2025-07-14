@@ -83,13 +83,11 @@
         >
         <nav>
           <ul class="align-center flex-row">
-            <li>
-              <a href="index.html" rel="noopener" class="nav-active"
-                >Design ✶
-              </a>
             </li>
             <li>
-              <a href="about.html" rel="noopener" class="nav-hover">About ✩</a>
+              <a href="about.html" rel="noopener" class="nav-hover"
+                >About <span class="">✩</span></a
+              >
             </li>
             <li>
               <a
@@ -98,7 +96,7 @@
                 target="_blank"
                 class="nav-hover"
               >
-                Resume ↴
+                Resume <span class="">↴</span>
               </a>
             </li>
             <!-- TODO: update resume -->
@@ -117,14 +115,19 @@
       <section class="hero">
         <div class="hero-title">
           <h1 class="large">
-            I’m Oceana. <span class="peach-300"> ✦ ₊ .</span>
-            <br />
+            <span class="show-on-mobile"
+              >I’m Oceana. <span class="peach-300"> <br />✦ ₊ .</span><br
+            /></span>
+            <span class="hide-on-mobile"
+              >I’m Oceana. <span class="peach-300"> ✦ ₊ .</span> <br
+            /></span>
+
             <span class="blush-300">✹ </span>
             <span class="highlight">Creator, Designer, & Programmer</span>
           </h1>
         </div>
 
-        <div class="hero-img-container">
+        <div class="hero-img-container hide-on-mobile">
           <img
             src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1739684660/oceana%20portfolio/Persona_no_wings_1_dqxxjn.png"
             alt=""
@@ -184,27 +187,27 @@
         <div class="project right-orientation">
           <div class="project-info">
             <h2>
-              Bubble tea brand brought to life through design
+              A Pokemon productivity app
               <span class="lavendar-300">★</span>
             </h2>
-            <p class="peach-300 heading-5 alt-font-caps">Web Design / 2021</p>
-            <a href="study-bobs-boba.html">Bobs Boba →</a>
+            <p class="peach-300 heading-5 alt-font-caps">UX UI & Front-End / 2025</p>
+            <a href="study-pokedoro.html">Pokedoro →</a>
           </div>
 
-          <a class="project-image project-2" href="study-bobs-boba.html"> </a>
+          <a class="project-image project-2" href="study-pokedoro.html"> </a>
         </div>
 
         <!-- CLOUDS 4 -->
-        <!-- <div class="cloud-4 absolute">
+        <div class="cloud-4 absolute">
           <img
             src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1741060282/oceana%20portfolio/Clouds_4_td1ndi.svg"
             alt="Decorative Clouds"
             class="clouds"
           />
-        </div> -->
+        </div>
 
-        <!-- <div class="project left-orientation">
-          <a class="project-image project-3"> </a>
+        <div class="project left-orientation">
+          <a class="project-image project-3" href="study-bobs-boba.html"></a>
           <div class="project-info">
             <h2>
               Bubble tea brand brought to life through design
@@ -213,7 +216,7 @@
             <p class="peach-300 heading-5 alt-font-caps">Web Design / 2021</p>
             <a href="study-bobs-boba.html">Bobs Boba →</a>
           </div>
-        </div> -->
+        </div>
       </section>
     </main>
 

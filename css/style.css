@@ -71,9 +71,18 @@ img.blush-300 {
   border-color: #c690b9;
 }
 
+img.lavendar-300 {
+  border-color: #9d90c6 !important;
+}
+
 .border-blush-600 {
   border-radius: 16px;
   border: 1px solid #713369;
+}
+
+.border-lavendar-600 {
+  border-radius: 16px;
+  border: 1px solid #3a356d;
 }
 
 img.lavendar-300 {
@@ -92,6 +101,10 @@ img.peach-300 {
   background-image: linear-gradient(90deg, #efcce9, #efd2cc);
 }
 
+.gradient-purple-pink-100 {
+  background-image: linear-gradient(90deg, #d2ccee, #efcce9);
+}
+
 .bg-blush-100 {
   background-color: #f1cbe9;
   border: 5px solid #c690b9;
@@ -107,6 +120,12 @@ img.peach-300 {
 .bg-boba-100 {
   background-color: #f0f0f0;
   border: 5px solid #c690b9;
+  border-radius: 8px;
+}
+
+.bg-pokedoro-100 {
+  background-color: #f0f0f0;
+  border: 5px solid #9d90c6;
   border-radius: 8px;
 }
 /*
@@ -569,7 +588,7 @@ header ul {
 }
 
 .project-2 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1747106405/oceana%20portfolio/bobsboba_hero_2.png);
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1752478494/oceana%20portfolio/Frame_28_5_hodddp.png);
 }
 
 .project-3 {
@@ -660,7 +679,27 @@ footer {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border: #c690b9 solid 5px;
+  border-top: #c690b9 4px solid;
+  border-bottom: #c690b9 4px solid;
   border-radius: 8px;
+}
+
+.study-video-lavendar {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: #9d90c6 solid 5px;
+  border-top: #9d90c6 4px solid;
+  border-bottom: #9d90c6 4px solid;
+  border-radius: 8px;
+}
+
+.video-border-lavendar {
+  background-color: #9d90c6;
+}
+
+.video-border-blush {
+  background-color: #c690b9;
 }
 
 .video-clip-mask {
@@ -672,6 +711,7 @@ footer {
   overflow: hidden;
   position: relative;
 }
+
 .video-wrapper {
   position: relative;
 }
@@ -687,6 +727,13 @@ footer {
 }
 .show-on-mobile {
   display: none;
+}
+
+.img-hor-vert {
+  -moz-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 
 /*

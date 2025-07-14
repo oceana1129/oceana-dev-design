@@ -74,15 +74,34 @@ img.blush-300 {
 img.lavendar-300 {
   border-color: #9d90c6 !important;
 }
-
+.border-blush-200 {
+  border-radius: 16px;
+  border: 5px solid #d7abcf;
+}
+.border-blush-300 {
+  border-radius: 16px;
+  border: 5px solid #c790b8;
+}
+.border-blush-400 {
+  border-radius: 16px;
+  border: 5px solid #8f5084;
+}
 .border-blush-600 {
   border-radius: 16px;
-  border: 1px solid #713369;
+  border: 5px solid #713369;
+}
+.border-lavendar-300 {
+  border-radius: 16px;
+  border: 5px solid #9d90c6;
+}
+.border-lavendar-400 {
+  border-radius: 16px;
+  border: 5px solid #5a508f;
 }
 
 .border-lavendar-600 {
   border-radius: 16px;
-  border: 1px solid #3a356d;
+  border: 5px solid #3a356d;
 }
 
 img.lavendar-300 {

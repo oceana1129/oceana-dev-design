@@ -340,6 +340,7 @@ br {
   SPECIFIC STYLING
   ========================================
 */
+
 .no-text-highlight {
   -khtml-user-select: none;
   -o-user-select: none;
@@ -758,7 +759,8 @@ footer {
   background-color: white; /* match your page bg */
   z-index: 2;
 }
-.show-on-mobile {
+.show-on-mobile,
+.show-on-sm-mobile {
   display: none;
 }
 
@@ -1061,6 +1063,14 @@ ion-icon:hover {
 @media (max-width: 500px) {
   html {
     font-size: 10px;
+  }
+
+  .hide-on-sm-mobile {
+    display: none;
+  }
+
+  .show-on-sm-mobile {
+    display: block;
   }
 
   header,

@@ -126,15 +126,23 @@
       <!-- HERO -->
       <section class="hero flex-column gap-60">
         <!-- hero title -->
-        <div class="flex-column gap-32 flex-start"
+        <div class="flex-column gap-32 flex-start hide-on-sm-mobile"
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="300"
             data-aos-once="true">
-          <h2 class="alt-font-caps blush-600">Pokedoro</h2>
-          <h1>
+          <h2 class="alt-font-caps blush-600 hide-on-mobile">Pokedoro</h2>
+          <h1 class="hide-on-mobile">
             A Pokemon productivity app that turns work sessions into an adventure
           </h1>
+
+          <div class="show-on-mobile flex-column center-me gap-32 pad-top-20">
+            <h2 class="alt-font-caps blush-600 show-on-mobile">Pokedoro</h2>
+            <h1 class="center-text show-on-mobile">
+              A Pokemon productivity app that turns work sessions into an adventure
+            </h1>
+          </div>
+          
         </div>
         <!-- hero image -->
         <div class="width-100"

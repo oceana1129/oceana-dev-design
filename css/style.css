@@ -335,6 +335,15 @@ br {
   SPECIFIC STYLING
   ========================================
 */
+.no-text-highlight {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -ms-user-select: none;
+}
 
 /* active header */
 a.nav-active {

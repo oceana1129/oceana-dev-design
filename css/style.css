@@ -188,7 +188,7 @@ header span a {
 footer a.lavendar-400 {
   font-family: "Montserrat", serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #5a508f;
@@ -880,8 +880,14 @@ a.nav-hover:hover {
   transition: color 0.3s;
 }
 
-a.nav-title:hover {
+a.nav-title:hover,
+.project-info a:hover {
   color: #c690b9;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #9d90c6;
   transition: color 0.3s;
 }
 

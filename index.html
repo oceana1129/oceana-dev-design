@@ -70,6 +70,9 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -113,7 +116,12 @@
     <main>
       <!-- HERO -->
       <section class="hero">
-        <div class="hero-title">
+        <div class="hero-title"
+          data-aos="fade-up-right"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          data-aos-mirror="false"
+          >
           <h1 class="large">
             <span class="show-on-mobile"
               >I’m Oceana. <span class="peach-300"> <br />✦ ₊ .</span><br
@@ -122,12 +130,25 @@
               >I’m Oceana. <span class="peach-300"> ✦ ₊ .</span> <br
             /></span>
 
-            <span class="blush-300">✹ </span>
-            <span class="highlight">Creator, Designer, & Programmer</span>
+            <span class="blush-300"
+              data-aos="fade-up-right"
+              data-aos-duration="800"
+              data-aos-delay="1550"
+            >✹ </span>
+            <span class="highlight"
+              data-aos="fade-up-right"
+              data-aos-duration="800"
+              data-aos-delay="1600"
+            >Creator, Designer, & Programmer</span>
           </h1>
         </div>
 
-        <div class="hero-img-container hide-on-mobile">
+        <div class="hero-img-container hide-on-mobile"
+          data-aos="fade-up-left"
+          data-aos-duration="800"
+          data-aos-delay="700"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-mirror="false">
           <img
             src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1739684660/oceana%20portfolio/Persona_no_wings_1_dqxxjn.png"
             alt=""
@@ -143,7 +164,11 @@
         />
       </div>
       <!-- HEADER DIVIDER -->
-      <div class="divider">
+      <div class="divider"
+        data-aos="fade-down"
+        data-aos-duration="800"
+        data-aos-delay="1900"
+      >
         <p>Scroll to see my most recent work</p>
         <p>↓</p>
       </div>
@@ -151,9 +176,14 @@
       <!-- PORTFOLIO -->
       <section class="portfolio flex-column">
         <!-- PROJECT 1 -->
-        <div class="project left-orientation">
+        <div class="project left-orientation"
+        >
           <a class="project-image project-1" href="study-hopeify.html"></a>
-          <div class="project-info">
+          <div class="project-info"
+            data-aos="fade-down"
+            data-aos-duration="800"
+            data-aos-delay="500"
+            data-aos-mirror="false">
             <h2>
               Mental health platform powered by AI
               <span class="blush-300">✹</span>
@@ -185,7 +215,11 @@
 
         <!-- PROJECT 2 -->
         <div class="project right-orientation">
-          <div class="project-info">
+          <div class="project-info"
+            data-aos="fade-down"
+            data-aos-duration="800"
+            data-aos-delay="500"
+            data-aos-mirror="false">
             <h2>
               A Pokemon pomodoro productivity app
               <span class="lavendar-300">★</span>
@@ -208,7 +242,11 @@
 
         <div class="project left-orientation">
           <a class="project-image project-3" href="study-bobs-boba.html"></a>
-          <div class="project-info">
+          <div class="project-info"
+            data-aos="fade-down"
+            data-aos-duration="800"
+            data-aos-delay="500"
+            data-aos-mirror="false">
             <h2>
               Bubble tea brand brought to life through design
               <span class="peach-300">✦</span>
@@ -263,5 +301,9 @@
       </div>
     </footer>
     <!-- Custom Scripts -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

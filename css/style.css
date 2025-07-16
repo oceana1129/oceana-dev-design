@@ -148,6 +148,15 @@ img.peach-300 {
   border-radius: 8px;
 }
 
+.bg-lavendar {
+  background-color: #d2ccee;
+}
+
+.lavendar-border {
+  border: 5px solid #9d90c6;
+  border-radius: 8px;
+}
+
 .white-outline {
   text-shadow: -1px -1px 0 #fefbfc, 1px -1px 0 #fefbfc, -1px 1px 0 #fefbfc,
     1px 1px 0 #fefbfc;

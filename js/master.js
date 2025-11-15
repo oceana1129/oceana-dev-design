@@ -76,6 +76,7 @@ a.forEach((item) => {
 // Hover effects for links
 const caseStudyLinks = document.querySelectorAll("a.case-study");
 const caseProjectLinks = document.querySelectorAll("a.case-project");
+const caseDemoLinks = document.querySelectorAll("a.case-demo");
 
 function addHoverEffect(link, text) {
   link.addEventListener("mouseenter", () => {
@@ -94,4 +95,5 @@ function addHoverEffect(link, text) {
 }
 
 caseStudyLinks.forEach((link) => addHoverEffect(link, "view"));
-caseProjectLinks.forEach((link) => addHoverEffect(link, "demo"));
+caseDemoLinks.forEach((link) => addHoverEffect(link, "demo"));
+caseProjectLinks.forEach((link) => addHoverEffect(link, "repo"));

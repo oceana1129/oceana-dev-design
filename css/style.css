@@ -158,7 +158,10 @@ img.peach-300 {
 }
 
 .white-outline {
-  text-shadow: -1px -1px 0 #fefbfc, 1px -1px 0 #fefbfc, -1px 1px 0 #fefbfc,
+  text-shadow:
+    -1px -1px 0 #fefbfc,
+    1px -1px 0 #fefbfc,
+    -1px 1px 0 #fefbfc,
     1px 1px 0 #fefbfc;
 }
 /*
@@ -214,7 +217,10 @@ footer a.lavendar-400 {
 }
 
 footer * {
-  text-shadow: -1px -1px 0 #fefbfc, 1px -1px 0 #fefbfc, -1px 1px 0 #fefbfc,
+  text-shadow:
+    -1px -1px 0 #fefbfc,
+    1px -1px 0 #fefbfc,
+    -1px 1px 0 #fefbfc,
     1px 1px 0 #fefbfc;
 }
 
@@ -381,7 +387,10 @@ a.nav-active {
 
 /* special h1 section */
 .hero .highlight {
-  text-shadow: -1px -1px 0 #fefbfc, 1px -1px 0 #fefbfc, -1px 1px 0 #fefbfc,
+  text-shadow:
+    -1px -1px 0 #fefbfc,
+    1px -1px 0 #fefbfc,
+    -1px 1px 0 #fefbfc,
     1px 1px 0 #fefbfc;
   display: inline;
   background-image: linear-gradient(90deg, #c690b9, #9d90c6);
@@ -639,19 +648,19 @@ header ul {
 }
 
 .project-1 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1746922107/oceana%20portfolio/hopeify_banner_2.png);
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466500/oceana-dev-design/hopeify_hero_gretai.png);
 }
 
 .project-2 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1752478494/oceana%20portfolio/Frame_28_5_hodddp.png);
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466486/oceana-dev-design/pokedoro_hero_mkjyew.png);
 }
 
 .project-3 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1747106405/oceana%20portfolio/bobsboba_hero_2.png);
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466491/oceana-dev-design/bobsboba_hero_vrsui6.png);
 }
 
 .project-4 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1763248560/oceana%20portfolio/Frame_29_jutlit.png);
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466488/oceana-dev-design/salon_hero_sxpevl.png);
 }
 
 .project-image {
@@ -754,7 +763,8 @@ footer {
   border-radius: 8px;
 }
 
-.study-video video, .study-video-lavendar  video {
+.study-video video,
+.study-video-lavendar video {
   display: block;
   width: 100%;
   height: auto;
@@ -951,7 +961,10 @@ footer {
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  transition: width 0.3s, height 0.3s, opacity 0.3s;
+  transition:
+    width 0.3s,
+    height 0.3s,
+    opacity 0.3s;
   z-index: 9999;
 }
 
@@ -1001,13 +1014,17 @@ a.nav-title:hover,
   /* cursor: pointer; */
   background-color: #312339;
   color: #d2ccef;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 a.underline:hover {
   color: #9d90c6;
   text-decoration-color: #9d90c6;
-  transition: text-decoration-color 0.3s ease, color 0.3s ease;
+  transition:
+    text-decoration-color 0.3s ease,
+    color 0.3s ease;
 }
 
 footer a:hover {
@@ -1069,7 +1086,8 @@ ion-icon:hover {
     justify-content: center;
   }
 
-  #about .hero .hero-about-img-container, .hero-img-container {
+  #about .hero .hero-about-img-container,
+  .hero-img-container {
     display: none;
   }
 

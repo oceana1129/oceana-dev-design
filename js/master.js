@@ -40,12 +40,20 @@ var a = document.querySelectorAll("a");
 const cursorLabel = document.createElement("span");
 cursorLabel.classList.add("cursor-text");
 cursor.appendChild(cursorLabel);
+const isMobileOrTablet = window.matchMedia("(max-width: 1200px)").matches;
+
+if (isMobileOrTablet) {
+  cursor?.remove();
+  cursorinner?.remove();
+  cursorLabel?.remove();
+}
 
 document.addEventListener("mousemove", function (e) {
   var x = e.clientX;
   var y = e.clientY;
   cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
 });
+
 
 document.addEventListener("mousemove", function (e) {
   var x = e.clientX;

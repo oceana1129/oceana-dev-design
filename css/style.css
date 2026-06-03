@@ -176,7 +176,12 @@ img.peach-300 {
   14px = 0.875em
   12px = 0.75em
   ========================================
+
 */
+
+html {
+  font-size: 120%; /* 1rem = 16px (usually) */
+}
 /* header */
 header a,
 button.nav-button {
@@ -301,21 +306,26 @@ li {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  line-height: 150%;
+  line-height: 200%;
   letter-spacing: 0.005em;
   margin-bottom: 1em;
 }
 p {
   margin-bottom: 16px;
+  font-size: 1.2em;
 }
 
-p.large {
-  font-size: 1.125em;
+li {
+  font-size: 1.2em;
+}
+
+/* p.large {
+  font-size: 2em;
 }
 
 p.small {
-  font-size: 0.75em;
-}
+  font-size: 2em;
+} */
 
 /* buttons */
 button {
@@ -385,7 +395,9 @@ a.nav-active {
 /* special h1 section */
 .underline,
 a.underline {
-  text-decoration: underline wavy #5a3d67; /* Squiggly underline in purple */
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #5a3d67;
   text-decoration-thickness: 8%;
   text-underline-offset: 10%;
   text-decoration-skip-ink: auto;
@@ -553,7 +565,7 @@ header ul {
 /* main hero text */
 .hero-title,
 .hero-about-text {
-  max-width: 950px;
+  max-width: 1050px;
   z-index: 2;
 }
 
@@ -594,7 +606,7 @@ header ul {
 /* portfolio */
 .portfolio {
   padding: 10% 0;
-  gap: 80px;
+  gap: 300px;
 }
 
 .project {
@@ -689,11 +701,11 @@ header ul {
 /* about info */
 section.about {
   padding: 10% 0;
-  gap: 80px;
+  gap: 120px;
 }
 
 .about-info {
-  gap: 20px;
+  gap: 40px;
 }
 
 /* about images */
@@ -723,9 +735,9 @@ footer {
 
 /* case study layouts */
 .study-video {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box; */
   border: #c690b9 solid 5px;
   border-top: #c690b9 4px solid;
   border-bottom: #c690b9 4px solid;
@@ -733,13 +745,19 @@ footer {
 }
 
 .study-video-lavendar {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box; */
   border: #9d90c6 solid 5px;
   border-top: #9d90c6 4px solid;
   border-bottom: #9d90c6 4px solid;
   border-radius: 8px;
+}
+
+.study-video video, .study-video-lavendar  video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .video-border-lavendar {
@@ -755,7 +773,8 @@ footer {
 }
 
 .video-mask {
-  height: calc(100% - 1px);
+  /* height: calc(100% - 1px); */
+  height: auto;
   overflow: hidden;
   position: relative;
 }
@@ -1026,9 +1045,19 @@ ion-icon:hover {
   MEDIA QUERIES
   ========================================
 */
+
 @media (max-width: 1500px) {
   h1.large {
     font-size: 5em;
+  }
+}
+
+@media (max-width: 1200px) {
+  * {
+    cursor: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -1040,7 +1069,7 @@ ion-icon:hover {
     justify-content: center;
   }
 
-  #about .hero .hero-about-img-container {
+  #about .hero .hero-about-img-container, .hero-img-container {
     display: none;
   }
 
@@ -1081,6 +1110,9 @@ ion-icon:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .portfolio {
+    gap: 100px;
   }
 
   .center-text-on-mobile {

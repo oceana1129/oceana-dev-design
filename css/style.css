@@ -742,6 +742,13 @@ footer {
   gap: 30px;
 }
 
+section .flex-grow-3 {
+  padding-left: 40px;
+}
+.hero .flex-grow-3 {
+  padding-left: 0px;
+}
+
 /* case study layouts */
 .study-video {
   /* box-sizing: border-box;
@@ -1113,6 +1120,9 @@ ion-icon:hover {
   .remove-gap-at-small {
     gap: 0;
   }
+  section .flex-grow-3 {
+    padding-left: 0px;
+  }
 
   header,
   footer,
@@ -1164,21 +1174,35 @@ ion-icon:hover {
     transform: scale(1);
   }
 
+  .cloud-2,
+  .cloud-7,
+  .cloud-8,
+  .cloud-footer {
+    display: none;
+  }
+
+  section.about {
+    gap: 80px;
+  }
   .about-info-img-container {
+    width: 100%;
+    min-width: 0;
     display: flex;
     align-items: start;
-    overflow-x: auto;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
   }
 
   .about-info-img-container img {
+    max-width: none;
     margin-bottom: 10px;
+    margin-left: 600px;
   }
 
   /* scrollbar width */
   .about-info-img-container::-webkit-scrollbar {
-    height: 8px;
+    height: 0px;
   }
 
   /* scroll bar background */

@@ -334,7 +334,7 @@ p.small {
 } */
 
 /* buttons */
-button {
+button, .skill, a.button-outline, a.button-solid {
   font-family: "Montserrat", serif;
   font-weight: 500;
   font-size: 1.125em;
@@ -427,10 +427,16 @@ a.underline {
 }
 
 /* buttons that are solid */
-.button-solid {
-  background-color: #efcce9;
+a.button-solid {
+  background-color: #4B3955;
+  color: #FEFBFC;
   border-radius: 4px;
   padding: 0.375em 0.625em;
+}
+
+a.button-outline, a.button-solid {
+  font-weight: bold;
+  text-transform: none;
 }
 
 footer {
@@ -639,12 +645,15 @@ header ul {
 .project-info {
   position: absolute;
   background: #fff;
-  padding: 40px;
+  padding: 60px;
   border-radius: 12px;
   box-shadow: 0px 8px 20px rgba(51, 37, 9, 0.15);
   max-width: 45%;
   min-width: 300px;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .project-1 {
@@ -682,6 +691,12 @@ header ul {
   transition: filter 0.3s ease-in-out;
 }
 
+.button-container {
+  margin-top: 40px;
+}
+.button-container a {
+  padding: 16px;
+}
 .study-question {
   background: #fff;
   padding: 40px;
@@ -703,8 +718,24 @@ header ul {
   padding-bottom: 12px;
 }
 
-.project-info p {
-  padding-bottom: 40px;
+.skill {
+  padding: 16px;
+  color: #4B3955;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.skill.blush-100 {
+  background-color: #EFCCE9;
+}
+
+.skill.lavender-100 {
+  background-color: #D2CCEF;
+}
+
+.skill.peach-100 {
+  background-color: #EFD2CC;
 }
 
 /* about info */

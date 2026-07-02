@@ -334,7 +334,10 @@ p.small {
 } */
 
 /* buttons */
-button, .skill, a.button-outline, a.button-solid {
+button,
+.skill,
+a.button-outline,
+a.button-solid {
   font-family: "Montserrat", serif;
   font-weight: 500;
   font-size: 1.125em;
@@ -428,13 +431,14 @@ a.underline {
 
 /* buttons that are solid */
 a.button-solid {
-  background-color: #4B3955;
-  color: #FEFBFC;
+  background-color: #4b3955;
+  color: #fefbfc;
   border-radius: 4px;
   padding: 0.375em 0.625em;
 }
 
-a.button-outline, a.button-solid {
+a.button-outline,
+a.button-solid {
   font-weight: bold;
   text-transform: none;
 }
@@ -720,22 +724,22 @@ header ul {
 
 .skill {
   padding: 16px;
-  color: #4B3955;
+  color: #4b3955;
   border-radius: 4px;
   font-weight: bold;
   text-transform: none;
 }
 
 .skill.blush-100 {
-  background-color: #EFCCE9;
+  background-color: #efcce9;
 }
 
 .skill.lavender-100 {
-  background-color: #D2CCEF;
+  background-color: #d2ccef;
 }
 
 .skill.peach-100 {
-  background-color: #EFD2CC;
+  background-color: #efd2cc;
 }
 
 /* about info */
@@ -1279,5 +1283,11 @@ ion-icon:hover {
   .cloud-4 img {
     width: 40vw;
     min-width: 300px;
+  }
+  .project-info {
+    padding: 40px;
+  }
+  .skill {
+    padding: 12px;
   }
 }

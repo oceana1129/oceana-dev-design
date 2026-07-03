@@ -659,21 +659,28 @@ header ul {
   flex-direction: column;
   gap: 16px;
 }
-
-.project-1 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466500/oceana-dev-design/hopeify_hero_gretai.png);
+.project-hopeify {
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1783115170/oceana-dev-design/hopeify_hero_kibe6h.png);
 }
 
-.project-2 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466486/oceana-dev-design/pokedoro_hero_mkjyew.png);
+.project-pokedoro {
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1783115170/oceana-dev-design/pokedoro_hero_hlakqp.png);
 }
 
-.project-3 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466491/oceana-dev-design/bobsboba_hero_vrsui6.png);
+.project-lyra {
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1783115170/oceana-dev-design/lyra_hero_gsbtu6.png);
 }
 
-.project-4 {
-  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1780466488/oceana-dev-design/salon_hero_sxpevl.png);
+.project-robots-heart {
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1783115171/oceana-dev-design/robotsheart_hero_c1chc5.png);
+}
+
+.project-star-strayed {
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1783115170/oceana-dev-design/starstrayed_hero_xcvmhs.png);
+}
+
+.project-bobs-boba {
+  background-image: url(https://res.cloudinary.com/oceana-web-designs/image/upload/v1783115170/oceana-dev-design/bobsboba_hero_laxsb7.png);
 }
 
 .project-image {
